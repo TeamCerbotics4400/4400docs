@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
-  branch: main # Rama en la que se guardarán los cambios
+  branch: master 
 
-media_folder: "public/images" # Carpeta para guardar las imágenes
-public_folder: "/images" # Ruta pública para acceder a las imágenes
+media_folder: "public/images" 
+public_folder: "/images" 
 
 collections:
   - name: "docs"
