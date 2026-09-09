@@ -10,7 +10,14 @@ collections:
     label: "Documentación"
     folder: "src/content/docs"
     create: true
-    slug: "{{slug}}"
+    nested:
+      depth: 5 # Permite hasta 5 niveles de subcarpetas
+      summary: '{{title}}'
+    meta:
+      path:
+        widget: string
+        label: "Ruta / Carpeta"
+        index_file: "index"
     fields:
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Descripción", name: "description", widget: "string", required: false}

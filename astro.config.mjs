@@ -37,7 +37,7 @@ export default defineConfig({
       sidebar: [
 		{
 			label: 'Documentación Cerbotics',
-    		items: [{autogenerate: { directory: 'docs' }}],
+    		items: [{autogenerate: { directory: '' }}],
 		}
         
       ],
