@@ -34,13 +34,6 @@ export default defineConfig({
           href: "https://github.com/withastro/starlight",
         },
       ],
-      sidebar: [
-		{
-			label: 'Documentación Cerbotics',
-    		items: [{autogenerate: { directory: '' }}],
-		}
-        
-      ],
     }),
   ],
 });
